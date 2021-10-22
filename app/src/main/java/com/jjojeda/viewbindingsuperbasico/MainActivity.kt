@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
         VistaMain = ActivityMainBinding.inflate(layoutInflater)
         val VistaPrincipal = VistaMain.root
         setContentView(VistaPrincipal)
-        // Tambien podria ser:
+        // También podría ser:
         // setContentView(VistaMain.root)
 
         VistaMain.bCambiarTexto.setOnClickListener(){
