@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:textAlignment="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvTexto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="Texto Original"
+        android:textAlignment="center"
+        android:textColor="@color/primaryVerdeLightColor"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etTexto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:ems="12"
+        android:hint="Texto"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textColor="@color/primaryVerdeDarkColor" />
+
+    <CheckBox
+        android:id="@+id/cbTextoAoB"
+        android:layout_width="280dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="60dp"
+        android:layout_weight="1"
+        android:text="Cual texto muestro"
+        android:textAlignment="center"
+        android:textColor="@color/primaryVerdeColor"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/bCambiarTexto"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_margin="100dp"
+        android:backgroundTint="@color/primaryVerdeColor"
+        android:insetLeft="8dp"
+        android:insetRight="8dp"
+        android:insetBottom="6dp"
+        android:text="Enviar"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+</LinearLayout>
