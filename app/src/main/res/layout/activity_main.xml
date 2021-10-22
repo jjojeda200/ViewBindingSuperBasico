@@ -13,7 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
-        android:text="Texto Original"
+        android:text="@string/Texto_original"
         android:textAlignment="center"
         android:textColor="@color/primaryVerdeLightColor"
         android:textSize="36sp"
@@ -26,18 +26,19 @@
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:ems="12"
-        android:hint="Texto"
+        android:hint="@string/Texto"
         android:inputType="textPersonName"
         android:text=""
-        android:textColor="@color/primaryVerdeDarkColor" />
+        android:textColor="@color/primaryVerdeDarkColor"
+        android:autofillHints="" />
 
     <CheckBox
         android:id="@+id/cbTextoAoB"
         android:layout_width="280dp"
-        android:layout_height="20dp"
-        android:layout_marginLeft="60dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="60dp"
         android:layout_weight="1"
-        android:text="Cual texto muestro"
+        android:text="@string/Cual_texto_muestro"
         android:textAlignment="center"
         android:textColor="@color/primaryVerdeColor"
         android:textSize="24sp"
@@ -52,7 +53,7 @@
         android:insetLeft="8dp"
         android:insetRight="8dp"
         android:insetBottom="6dp"
-        android:text="Enviar"
+        android:text="@string/Boton_enviar"
         android:textAlignment="center"
         android:textSize="20sp" />
 
